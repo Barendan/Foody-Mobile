@@ -21,7 +21,7 @@ export default () => {
   }
 
   useEffect(() => {
-    searchApi('italian')
+    searchApi('')
   }, [])
 
   return [searchApi, results, errorMessage]
